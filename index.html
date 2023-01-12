@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <nav class="sidebar">
+      <div class="image">
+        <div class="bordering">
+          <a href="https://elbrusboot.camp/" target="_blank">
+            <img
+              class="logo"
+              src="./static/Bootcamp-elbrus.png"
+              alt="elbrus-logo"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="menu">
+        <button onclick="location.href='#me'" class="glowy">Обо мне</button>
+        <button onclick="location.href='#education'" class="glowy" href="#">
+          Образование
+        </button>
+        <button onclick="location.href='#hobby'" class="glowy" href="#">
+          Хобби
+        </button>
+        <button onclick="location.href='#stack'" class="glowy" href="#">
+          Стек
+        </button>
+        <button onclick="location.href='#projects'" class="glowy" href="#">
+          Мои проекты
+        </button>
+      </div>
+      <footer>
+        <p>© designed by PhilYaren 2023</p>
+        <div class="footer-links">
+          <a href="https://github.com/PhilYaren" target="_blank"
+            ><img name="github" src="./static/github-mark.png" alt="github"
+          /></a>
+          <a href="https://vk.com/id48206068" target="_blank"
+            ><img name="vk" src="./static/vk-logo.png" alt="vk"
+          /></a>
+          <a href="https://t.me/MenschBrecher" target="_blank"
+            ><img name="tg" src="./static/telegram-logo.png" alt="tg"
+          /></a>
+        </div>
+      </footer>
+    </nav>
+    <section class="main">
+      <section id="me">
+        <div class="description">
+          <img
+            class="main_about-me"
+            src="./static/photo-of-me.png"
+            alt="Фото меня"
+          />
+          <div class="text">
+            <h1 class="text-about">Обо мне</h1>
+            <p class="main-text">
+              Привет, меня зовут Ярослав. На данный момент, обучаюсь в
+              ElbrusBootcamp и постигаю азы веб-програмирования. Также, знаю
+              немного BackEnd(python, django). Сейчас живу в Тбилиси с братом и
+              бывшим однокласником.
+            </p>
+          </div>
+        </div>
+        <div class="triangle"></div>
+      </section>
+      <section class="education" id="education">
+        <h2 class="education__name">Образование</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="./static/vavt.png" class="card__img" alt="лого универа" />
+            <h3 class="card__name">Где я обучался?</h3>
+            <p class="card__description">
+              Я обучался в ВАВТ(Всероссийской Академии Внешней Торговли) при
+              министерстве экономического развития. Был на факультете
+              экономистов международников и изучал 2 иностранных языка:
+              Английский и Немецкий.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./static/list.jpg" class="card__img" alt="список" />
+            <h3 class="card__name">Основные</h3>
+            <p class="card__description">
+              Самое важное в нашем направлении было изучение внешнеторговых
+              отношений, математический анализ, эконометрики и использование
+              профессианального иностранного языка на высоком уровне.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./static/check-guy.png" class="card__img" alt="друзья" />
+            <h3 class="card__name">Мои профиты</h3>
+            <p class="card__description">
+              В первую очередь уни верситет подарил мне замечательных и надежных
+              друзей, которые и по сей день остаются со мной рядом. Я обучился
+              работать в режиме многозадачности, а некоторые предметы повысили
+              мне и стрессоустойчивость.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="hobby" id="hobby">
+        <h2 class="hobby__name">Хобби</h2>
+        <div class="hobby__cards">
+          <div class="hobby__card">
+            <img
+              src="./static/table-games.png"
+              alt="table-games"
+              class="hobby__img"
+            />
+            <p class="hobby__description">Настольные игры</p>
+          </div>
+          <div class="hobby__card">
+            <img src="./static/drinks.png" alt="drinks" class="hobby__img" />
+            <p class="hobby__description">Веселые посиделки</p>
+          </div>
+          <div class="hobby__card">
+            <img src="./static/cats.png" alt="cats" class="hobby__img" />
+            <p class="hobby__description">Погладить котиков</p>
+          </div>
+          <div class="hobby__card">
+            <img
+              src="./static/computer.png"
+              alt="computer"
+              class="hobby__img"
+            />
+            <p class="hobby__description">Компуктерные игры</p>
+          </div>
+        </div>
+      </section>
+      <section class="stack" id="stack">
+        <h2 class="stack__name">Стек</h2>
+        <div class="stack__icons">
+          <img class="stack__icon" src="./static/htmlicon.png" alt="html" />
+          <img class="stack__icon" src="./static/cssicon.png" alt="css" />
+        </div>
+        <img class="stack__img" src="./static/free-png.ru-175.png" alt="neon" />
+      </section>
+      <section class="projects" id="projects">
+        <h2 class="projects__name">Мои проекты</h2>
+        <div class="projects__cards">
+          <img
+            src="./static/adidas-logo.jpg"
+            alt="первый проект"
+            class="project__img"
+          />
+          <p class="projects__description">Логотип своими руками</p>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
